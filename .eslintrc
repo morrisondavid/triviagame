@@ -1,0 +1,67 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module",
+    "typescript": true
+  },
+  "globals": {
+    "process": false
+  },
+  "plugins": ["react", "import", "jsx-a11y"],
+  "rules": {
+    "no-unused-variable": true,
+    "indent": "off",
+    "quotes": "off",
+    "@typescript-eslint/camelcase": "off",
+    "@typescript-eslint/no-parameter-properties": "off",
+    "@typescript-eslint/interface-name-prefix": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/indent": "off",
+    "linebreak-style": ["error", "unix"],
+    "semi": ["error", "always"],
+    "no-console": "warn",
+    "react/prop-types": "error",
+    "import/newline-after-import": ["error", { "count": 1 }],
+    "import/no-useless-path-segments": "error",
+    "import/no-webpack-loader-syntax": "error",
+    "import/no-self-import": "error",
+    "import/no-mutable-exports": "error",
+    "import/no-named-default": "error",
+    "import/no-named-as-default-member": "error",
+    "import/no-restricted-paths": [
+      "error",
+      {
+        "zones": [
+          {
+            "target": "./src/components/",
+            "from": "./src/data/"
+          }
+        ]
+      }
+    ],
+    "no-process-env": "off",
+    "no-case-declarations": "off"
+  }
+}

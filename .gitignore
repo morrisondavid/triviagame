@@ -1,0 +1,14 @@
+
+# files
+.DS_Store
+package-lock.json
+
+# folders
+/node_modules
+/build
+/dist/*
+
+# misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

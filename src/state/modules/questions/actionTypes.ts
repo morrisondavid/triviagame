@@ -1,0 +1,5 @@
+export default Object.freeze({
+  CLEAR: "CLEAR",
+  INITIALISE_QUESTIONS: "INITIALISE_QUESTIONS",
+  NEXT_QUESTION: "NEXT_QUESTION"
+});
