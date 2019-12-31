@@ -1,12 +1,13 @@
 import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-html {
+html, body {
+  margin: 0;
   height: 100%;
   overflow: hidden;
 }
 
-body {
+#trivia-app {
   font-family: "Arial", sans-serif;
   margin: 0;
   width: 100%;
@@ -67,7 +68,7 @@ export const SnowTheme = styled.div`
       rgba(255, 255, 255, 0) 100%
     );
 
-    #app {
+    #trivia-app {
       position: absolute;
       width: 100%;
       height: 100%;

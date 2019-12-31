@@ -11,5 +11,5 @@ ReactDom.render(
       <App />
     </BrowserRouter>
   </Provider>,
-  document.getElementById("app")
+  document.getElementById("trivia-app")
 );
