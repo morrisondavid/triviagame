@@ -3,15 +3,16 @@ import styled, { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
 html, body {
   margin: 0;
-  height: 100%;
+  height: 100vh;
+  width:100vw;
   overflow: hidden;
 }
 
 #trivia-app {
   font-family: "Arial", sans-serif;
   margin: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#6af), to(#bdf));
   background-image: -webkit-linear-gradient(#6af, #bdf);
