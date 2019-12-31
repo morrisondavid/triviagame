@@ -103,6 +103,25 @@ export class App extends React.PureComponent<IAppProps, IAppState> {
                   />
                 )}
               />
+              <Route
+                exact
+                path={Routes.PORTFOLIO_HOME}
+                render={() => <Welcome nextPageUrl={Routes.DIFFICULTY} />}
+              />
+              <Route path={Routes.PORTFOLIO_QUIZ} component={Question} />
+              <Route path={Routes.PORTFOLIO_RESULTS} render={() => <Results {...this.props} />} />
+              <Route
+                path={Routes.PORTFOLIO_DIFFICULTY}
+                render={() => (
+                  <Difficulty
+                    history={history}
+                    flipDuration={3}
+                    rotation={3600}
+                    BackComponent={Blank}
+                    onClick={this.selectDifficulty}
+                  />
+                )}
+              />
             </Switch>
           </Game>
         </Container>
