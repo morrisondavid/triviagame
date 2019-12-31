@@ -15,16 +15,17 @@ import DisplayText from "constants/DisplayText";
 import Results from "components/Results/Results";
 import Routes from "constants/Routes";
 import Snow from "components/Snow/Snow";
+import Blank from "components/Background/Background.styles";
 
 import "./App.scss";
-import Blank from "components/Background/Background.styles";
 
 export class App extends React.PureComponent<IAppProps, IAppState> {
   constructor(props: any) {
     super(props);
 
     this.state = {
-      error: undefined
+      error: undefined,
+      stylesheetUrl: ""
     };
   }
 
