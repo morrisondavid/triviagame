@@ -1,12 +1,6 @@
 import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-html, body {
-  margin: 0;
-  height: 100vh;
-  width:100vw;
-  overflow: hidden;
-}
 
 #trivia-app {
   font-family: "Arial", sans-serif;
