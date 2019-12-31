@@ -1,6 +1,6 @@
 import React from "react";
 
-import Snowflake from "data/models/Snowflake";
+import Snowflake from "../../data/models/Snowflake";
 import { GlobalStyle, SnowTheme } from "./Snow.styles";
 
 class Snow extends React.PureComponent<any> {

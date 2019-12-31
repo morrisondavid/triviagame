@@ -1,7 +1,7 @@
 import { IQuestionActionCreators } from "./interfaces";
-import { IReduxState } from "state/initialState";
+import { IReduxState } from "../../initialState";
 import ActionTypes from "./actionTypes";
-import api from "data/api/api";
+import api from "../../../data/api/api";
 import { getQuestionOptions } from "../questionOptions/selectors";
 
 class QuestionActionCreators implements IQuestionActionCreators {

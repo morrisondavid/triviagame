@@ -1,10 +1,10 @@
-import createReducer from "state/utils/createReducer";
-import initialState from "state/initialState";
+import createReducer from "../../utils/createReducer";
+import initialState from "../../initialState";
 import ActionTypes from "./actionTypes";
-import { IReduxAction } from "state/utils/interfaces";
+import { IReduxAction } from "../../utils/interfaces";
 import { RecordOf } from "immutable";
-import { IQuestionList } from "data/models/interfaces";
-import QuestionList from "data/models/QuestionList";
+import { IQuestionList } from "../../../data/models/interfaces";
+import QuestionList from "../../../data/models/QuestionList";
 
 const clear = () => {
   return new QuestionList();

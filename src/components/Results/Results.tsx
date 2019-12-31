@@ -2,10 +2,10 @@ import React from "react";
 import { IResultsProps } from "./interfaces";
 import { ResultsContainer } from "./Reults.styles";
 import connect from "./Results.connect";
-import Button from "components/Button/Button";
-import { IQuestion } from "data/models/interfaces";
+import Button from "../Button/Button";
+import { IQuestion } from "../../data/models/interfaces";
 import classnames from "classnames";
-import Routes from "constants/Routes";
+import Routes from "../../constants/Routes";
 
 class Results extends React.PureComponent<IResultsProps> {
   click = () => {

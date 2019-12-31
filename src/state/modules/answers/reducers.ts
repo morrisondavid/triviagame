@@ -1,6 +1,6 @@
 import { Map } from "immutable";
-import createReducer from "state/utils/createReducer";
-import initialState from "state/initialState";
+import createReducer from "../../utils/createReducer";
+import initialState from "../../initialState";
 import ActionTypes from "./actionTypes";
 import QuestionActionTypes from "state/modules/questions/actionTypes";
 import { IReduxAction } from "state/utils/interfaces";

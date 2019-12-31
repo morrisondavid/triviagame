@@ -1,5 +1,5 @@
-import { IReduxState } from "state/initialState";
-import { IQuestion } from "data/models/interfaces";
+import { IReduxState } from "../../initialState";
+import { IQuestion } from "../../../data/models/interfaces";
 
 export function getAnswers(state: IReduxState) {
   return state.answers;

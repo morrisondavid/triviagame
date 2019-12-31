@@ -1,5 +1,5 @@
-import { IQuestion } from "data/models/interfaces";
-import { IReduxAction } from "state/utils/interfaces";
+import { IQuestion } from "../../data/models/interfaces";
+import { IReduxAction } from "../../state/utils/interfaces";
 
 export interface IQuestionConnectedProps {
   question: IQuestion;

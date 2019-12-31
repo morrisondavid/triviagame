@@ -1,10 +1,10 @@
 import React from "react";
 import { IQuestionProps } from "./interfaces";
-import Loader from "components/Loader/Loader";
+import Loader from "../Loader/Loader";
 import { QuestionContainer } from "./Question.styles";
 import connect from "./Question.connect";
-import Button from "components/Button/Button";
-import { ButtonContainer } from "components/Button/Button.styles";
+import Button from "../Button/Button";
+import { ButtonContainer } from "../Button/Button.styles";
 
 class Question extends React.PureComponent<IQuestionProps> {
   answer = (e: any) => {

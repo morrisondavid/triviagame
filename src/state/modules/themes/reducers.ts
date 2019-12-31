@@ -1,5 +1,5 @@
-import createReducer from "state/utils/createReducer";
-import initialState from "state/initialState";
+import createReducer from "../../utils/createReducer";
+import initialState from "../../initialState";
 import ActionTypes from "./actionTypes";
 
 const toggle = (state: boolean) => !state;

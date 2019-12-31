@@ -1,10 +1,10 @@
 /* eslint-disable */
 import axios from "axios";
-import QuestionOptions from "data/models/QuestionOptions";
-import Result from "utils/Result";
-import ErrorMessages from "constants/ErrorMessages";
-import QuestionList from "data/models/QuestionList";
-import { buildQueryString } from "utils/buildQueryString";
+import QuestionOptions from "../../data/models/QuestionOptions";
+import Result from "../../utils/Result";
+import ErrorMessages from "../../constants/ErrorMessages";
+import QuestionList from "../models/QuestionList";
+import { buildQueryString } from "../../utils/buildQueryString";
 import { easy, medium, hard } from "data/api/mockdata";
 
 const mockQuestions: any = {

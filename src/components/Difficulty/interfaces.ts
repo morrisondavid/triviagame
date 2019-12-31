@@ -1,4 +1,4 @@
-import { IWithFlipProps, IFlipComponentProps } from "hoc/withFlipAnimation/interfaces";
+import { IWithFlipProps, IFlipComponentProps } from "../../hoc/withFlipAnimation/interfaces";
 import { History } from "history";
 
 interface IProps {

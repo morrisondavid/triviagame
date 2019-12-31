@@ -1,4 +1,4 @@
-import { IReduxState } from "state/initialState";
+import { IReduxState } from "../../initialState";
 
 export function getQuestions(state: IReduxState) {
   return state.questions.questions;

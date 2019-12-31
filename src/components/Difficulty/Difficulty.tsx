@@ -2,8 +2,8 @@ import React from "react";
 import { DifficultyContainer } from "./Difficulty.styles";
 import { Link } from "react-router-dom";
 import { IDifficultyProps, IDifficultyState } from "./interfaces";
-import Button from "components/Button/Button";
-import withFlipAnimation from "hoc/withFlipAnimation/withFlipAnimation";
+import Button from "../Button/Button";
+import withFlipAnimation from "../../hoc/withFlipAnimation/withFlipAnimation";
 import classnames from "classnames";
 
 class Difficulty extends React.PureComponent<IDifficultyProps, IDifficultyState> {

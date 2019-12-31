@@ -1,5 +1,5 @@
-import { IReduxThunkAction } from "state/interfaces";
-import { IReduxAction } from "state/utils/interfaces";
+import { IReduxThunkAction } from "../../interfaces";
+import { IReduxAction } from "../../utils/interfaces";
 
 export interface IQuestionActionCreators {
   fetchQuestions: () => IReduxThunkAction;

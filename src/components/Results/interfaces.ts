@@ -1,5 +1,5 @@
-import { IQuestion } from "data/models/interfaces";
-import { IReduxAction } from "state/utils/interfaces";
+import { IQuestion } from "../../data/models/interfaces";
+import { IReduxAction } from "../../state/utils/interfaces";
 import { Map } from "immutable";
 import { RouteComponentProps } from "react-router";
 

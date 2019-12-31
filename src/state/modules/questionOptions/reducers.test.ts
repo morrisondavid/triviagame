@@ -1,7 +1,7 @@
 import ActionTypes from "./actionTypes";
 import questionOptionsreducer from "./reducers";
-import QuestionOptions from "data/models/QuestionOptions";
-import { IQuestionOptions } from "data/models/interfaces";
+import QuestionOptions from "../../../data/models/QuestionOptions";
+import { IQuestionOptions } from "../../../data/models/interfaces";
 import { RecordOf } from "immutable";
 
 /*

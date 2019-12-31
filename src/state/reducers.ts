@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
-import questionsReducer from "state/modules/questions/reducers";
-import questionOptionsReducer from "state/modules/questionOptions/reducers";
-import answersReducer from "state/modules/answers/reducers";
-import themesReducer from "state/modules/themes/reducers";
+import questionsReducer from "./modules/questions/reducers";
+import questionOptionsReducer from "./modules/questionOptions/reducers";
+import answersReducer from "./modules/answers/reducers";
+import themesReducer from "./modules/themes/reducers";
 
 const reducers = combineReducers({
   questions: questionsReducer,

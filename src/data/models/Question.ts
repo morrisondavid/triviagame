@@ -1,6 +1,6 @@
 import { Record } from "immutable";
 import { IQuestion, IQuestionType, IQuestionDifficulty } from "./interfaces";
-import mapProperties from "utils/mapProperties";
+import mapProperties from "../../utils/mapProperties";
 
 const QuestionProperties = () => ({
   category: "",

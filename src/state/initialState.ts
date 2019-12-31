@@ -1,7 +1,7 @@
 import { Map, RecordOf } from "immutable";
-import { IQuestionOptions, IQuestionList } from "data/models/interfaces";
-import QuestionOptions from "data/models/QuestionOptions";
-import QuestionList from "data/models/QuestionList";
+import { IQuestionOptions, IQuestionList } from "../data/models/interfaces";
+import QuestionOptions from "../data/models/QuestionOptions";
+import QuestionList from "../data/models/QuestionList";
 
 export interface IReduxState {
   questionOptions: RecordOf<IQuestionOptions>;
