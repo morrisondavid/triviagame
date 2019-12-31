@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { IAppProps } from "App.interfaces";
+import { IAppProps } from "./App.interfaces";
 
 export const Layout = styled.div`
   display: flex;

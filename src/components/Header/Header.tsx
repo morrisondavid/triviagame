@@ -1,7 +1,7 @@
 import React from "react";
 import { HeaderDiv } from "./Header.styles";
 import { Link } from "react-router-dom";
-import DisplayText from "constants/DisplayText";
+import DisplayText from "../../constants/DisplayText";
 
 interface IHeaderProps {
   isSnowEnabled: boolean;

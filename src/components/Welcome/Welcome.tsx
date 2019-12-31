@@ -1,9 +1,9 @@
 import React from "react";
-import { IWelcomeProps } from "./interfaces";
-import DisplayText from "constants/DisplayText";
-import { WelcomeContainer } from "./Welcome.styles";
 import { Link } from "react-router-dom";
-import Button from "components/Button/Button";
+import { IWelcomeProps } from "./interfaces";
+import { WelcomeContainer } from "./Welcome.styles";
+import Button from "../Button/Button";
+import DisplayText from "../../constants/DisplayText";
 
 export const Welcome = ({ nextPageUrl }: IWelcomeProps) => {
   return (

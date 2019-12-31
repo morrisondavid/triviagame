@@ -1,21 +1,21 @@
 import React from "react";
-import Game from "components/Game/Game";
-import connect from "./App.connect";
-import Header from "components/Header/Header";
-import Question from "components/Question/Question";
-import ErrorPage from "components/ErrorPage/ErrorPage";
-import Difficulty from "components/Difficulty/Difficulty";
-import { withRouter, Redirect } from "react-router";
-import { Welcome } from "components/Welcome/Welcome";
-import { Layout, Container } from "./App.styles";
-import { IAppProps, IAppState } from "App.interfaces";
 import { Switch, Route } from "react-router-dom";
-import { IQuestionDifficulty } from "data/models/interfaces";
-import DisplayText from "constants/DisplayText";
-import Results from "components/Results/Results";
-import Routes from "constants/Routes";
-import Snow from "components/Snow/Snow";
-import Blank from "components/Background/Background.styles";
+import { withRouter, Redirect } from "react-router";
+import { Layout, Container } from "./App.styles";
+import { IAppProps, IAppState } from "./App.interfaces";
+import { Welcome } from "./components/Welcome/Welcome";
+import { IQuestionDifficulty } from "./data/models/interfaces";
+import connect from "./App.connect";
+import DisplayText from "./constants/DisplayText";
+import Game from "./components/Game/Game";
+import Header from "./components/Header/Header";
+import Question from "./components/Question/Question";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
+import Difficulty from "./components/Difficulty/Difficulty";
+import Results from "./components/Results/Results";
+import Routes from "./constants/Routes";
+import Snow from "./components/Snow/Snow";
+import Blank from "./components/Background/Background.styles";
 
 import "./App.scss";
 
